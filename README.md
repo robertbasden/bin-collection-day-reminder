@@ -1,7 +1,7 @@
 
 # Bin collection day reminder
 
-Node app to Slack me and remind me when its bin collection day. Scrapes data from the (Reading Borough Council website)[http://my.reading.gov.uk] 
+Node app to Slack me and remind me when its bin collection day. Scrapes data from the [Reading Borough Council website](http://my.reading.gov.uk)
 
 ## Setup
 
@@ -15,7 +15,7 @@ HOUSE_ID="..."
 
 The house ID is your unique house ID from the Reading Borough Council website, you can find it by:
 
-- Go to the (RBC MyReading page)[http://my.reading.gov.uk/MyReading.aspx]
+- Go to the [RBC MyReading page](http://my.reading.gov.uk/MyReading.aspx)
 - Pop open the brower console, view AJAX requests and filter for `getdata.aspx`
 - Enter your postcode
 - You can check the `data` field to find your `UniqueId` matched against the `DisplayName` (which will be your house name / number)
